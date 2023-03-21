@@ -1,0 +1,255 @@
+body{
+    background: #FFF8EA;
+    height: 95vh;
+    display: flex;
+}
+
+/* nav bar */
+.nav{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    background-color: #594545;
+    border: 10px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    height: 250px;
+    align-content: center;
+    line-height: 5px;
+}
+
+.title h1{
+    color: #FFF8EA;
+}
+
+.nav ul{
+    padding: 0px;
+    display: flex;
+    margin: 0px;
+}
+
+.nav a{
+    font-size: 30px;
+    color: #FFF8EA;
+    list-style: none;
+    padding: 10px;
+    width: 100%;
+    text-decoration: none;
+    
+}
+
+.outer_nav a:hover{
+    cursor: pointer;
+    color: #9E7676;
+}
+
+
+.inner_nav{
+    margin: 5px;
+    line-height: 5px;
+
+}
+.outer_nav{
+    margin: 5em 0px 0px 0px;
+    padding: 15px;
+   
+}
+
+.title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.title h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 45px;
+    transform: rotate(-20deg);
+    padding: 0 10px;
+
+}
+
+
+
+
+/* index */
+
+.container{
+    height: auto;
+    width: 70%;
+    background-image: url(imange/coffe3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5%;
+    text-align: center ;
+    display: flex;
+    align-items: center;
+}
+
+.container h1{
+    font-size: 95px;
+    padding: 0 10px;
+    color: rgb(255, 248, 234);
+    margin: 15px;
+}
+
+/* products */
+.card{   
+    min-width: 350px;
+    height: 230px;
+    background-color: #FFF8EA;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgba(0,0,0,0.15);
+    transition: 0.5s;
+    margin: 15px;
+    overflow:hidden; 
+    
+
+}
+
+.card h1{
+    padding: 15px;
+}
+
+.card:hover{
+    height: auto;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.imgbx{
+    position: relative;
+    left: 25%;
+    width: 150px;
+    height: 150px;
+    background: #FFF8EA;
+    border-radius: 20px;
+    box-shadow: 0 15px 50px rgba(0,0,0,0.35);
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.imgbx img{
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cname h1{
+    color: #594545;
+}
+
+.card-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    overflow:scroll;
+}
+
+.container2{
+    height: auto;
+    width: 70%;
+    background-image: url(imange/coffe3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5%;
+    display: flex;
+}
+
+.prices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.prices button{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* billing */
+.container3{
+    height: auto;
+    width: 70%;
+    background-image: url(imange/coffe3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5%;
+    display: flex;
+}
+.container4{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 50%;
+    align-items: center;
+    border-radius: 5%;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.container4 input{
+    height: 70px;
+    width: 100%;
+    font-size: 50px;
+    background-color: aliceblue;
+}
+
+.container4 label{
+    font-size: 50px;
+    color: white;
+    opacity: 100%;
+}
+
+
+.container5{
+    display: inline;
+    
+}
+
+.productpur{
+    display: inline-flex;
+
+}
+.container5 button{
+    font-size: 50px;
+    color: black;
+    padding: 10px;
+    margin: 20px;
+}
+
+.container5 button:hover{
+    cursor: pointer;
+}
+
+footer{
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+}
+
+@media (screen > 1920px){
+    .title h1{
+        font-size: 70px;
+    }
+}
